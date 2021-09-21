@@ -1,0 +1,17 @@
+.adress {
+  font-style: normal;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+}
+.adress__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.adress__link {
+  color: $third-color;
+}
+
+.adress__mail,
+.adress__tel {
+  color: rgba(255, 255, 255, 0.6);
+}
