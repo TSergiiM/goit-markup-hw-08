@@ -1,8 +1,22 @@
 .advantages {
-  display: flex;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * 30px);
+    margin-bottom: calc(-1 * 30px);
+  }
+  // display: flex;
+}
+
+.advantages__item {
+  @media screen and (min-width: 768px) {
+    flex-basis: calc(100% / 2 - 30px);
+  }
 }
 .advantages__item:not(:last-child) {
-  margin-right: 30px;
+  margin-bottom: 30px;
+
+  // margin-right: 30px;dla 1200px
 }
 
 .advantages__title {
@@ -11,6 +25,7 @@
   font-weight: 700;
   line-height: calc(16.41 / 14);
   text-transform: uppercase;
+  text-align: center; //MOBILE PEREVIR PLANSHET
 }
 
 .advantages__text {
@@ -24,7 +39,8 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
-  width: 270px;
+  max-width: 100%;
+  // width: 270px; dla 1200px
   height: 120px;
   background-color: #f5f4fa;
   border-radius: 4px;
