@@ -13,11 +13,18 @@
 }
 
 .footer__conteiner {
-  display: flex;
-  align-items: baseline;
+  text-align: center;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: baseline;
+  }
 }
 
 .logo-adress-box {
-  flex-grow: 1;
-  margin-right: 70px;
+  margin-bottom: 60px;
+
+  @media screen and (min-width: 768px) {
+    flex-grow: 1;
+    margin-right: 70px;
+  }
 }

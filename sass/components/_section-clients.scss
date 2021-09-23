@@ -19,8 +19,9 @@
   }
 }
 .client__link {
-  display: block;
-  padding: 12px 31px;
+  display: flex;
+  justify-content: center;
+  padding: 15px 31px;
   border: 1px solid #afb1b8;
   color: #afb1b8;
   border-radius: 4px;

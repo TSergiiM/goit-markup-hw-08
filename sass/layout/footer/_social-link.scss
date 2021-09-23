@@ -1,5 +1,11 @@
 .social-box {
-  margin-right: 93px;
+  @media screen and (max-width: 767px) {
+    margin-bottom: 60px;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-right: 93px;
+  }
 }
 
 .social-link-footer {
