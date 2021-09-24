@@ -1,18 +1,19 @@
 .subscribe-form {
-  @media screen and (min-width: 1200px) {
-    display: flex;
-    flex-direction: column;
-  }
 }
 
 .subscribe {
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 768px) {
     display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 .subscribe__input {
   @media screen and (max-width: 767px) {
     width: 100%;
+  }
+
+  @media screen and (max-width: 1199px) {
     margin-bottom: 20px;
   }
 
@@ -54,9 +55,4 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  @media screen and (min-width: 768px) {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
 }
