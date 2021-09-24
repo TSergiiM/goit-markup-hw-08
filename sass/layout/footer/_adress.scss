@@ -4,7 +4,11 @@
   line-height: calc(24 / 14);
 }
 .adress__item:not(:last-child) {
-  margin-bottom: 9px;
+  margin-bottom: 8px;
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 9px;
+  }
 }
 
 .adress__link {
