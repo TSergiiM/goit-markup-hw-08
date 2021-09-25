@@ -4,6 +4,10 @@
   font-size: 14px;
   line-height: calc(16.41 / 14);
   letter-spacing: 0.02em;
+
+  @media screen and( max-width: 767px ) {
+    display: none;
+  }
 }
 
 .navigation__item:not(:last-child) {

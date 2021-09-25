@@ -1,6 +1,9 @@
 .contact {
   display: flex;
   margin-left: auto;
+  @media screen and( max-width: 767px ) {
+    display: none;
+  }
 }
 .contact__item {
   font-weight: 500;
