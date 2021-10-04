@@ -1264,4 +1264,10 @@ img {
     align-items: baseline;
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .wrapper {
+    flex-grow: 1;
+  }
+}
 /*# sourceMappingURL=main.css.map */
