@@ -717,14 +717,17 @@ img {
   }
 }
 
-.gallery__item {
-  margin-bottom: 30px;
+@media screen and (max-width: 767px) {
+  .gallery__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .gallery__item {
     flex-basis: calc((100% - 60px) / 2);
     margin: 15px;
+    margin-bottom: 30px;
   }
 }
 
